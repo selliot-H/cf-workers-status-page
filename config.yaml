@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: spcar-sms # unique identifier
-    name: spcar-sms
+  - id: baidu # unique identifier
+    name: baidu
     description: '' # default=empty
-    url: 'https://a.heyuapp.cn/spcar/sms' # URL to fetch
+    url: 'https://www.baidu.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
